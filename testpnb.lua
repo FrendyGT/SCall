@@ -1,4 +1,9 @@
 if OwnerValidity == true and Owner == "FrendyGT" then
+bot = getBot()
+bots = getBots()
+world = bot:getWorld()
+inventory = bot:getInventory()	
+	
 function AnlikYer()
     Dunyadami = tostring(world.name)
     if Dunyadami ~= "" and Dunyadami ~= "EXIT" then
